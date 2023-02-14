@@ -10,11 +10,11 @@ def bob(question: str):
         return "relax, i know  what I`m doing"
     elif question.endswith("?"):
         return "Of course"
-    elif question.issuper():
+    elif question.isupper():
         return "wow relax"
     else:
         return "wot hewer"
 
 
 if __name__ == '__main__':
-    print(bob("BOB?"))
+    print(bob("ok"))
